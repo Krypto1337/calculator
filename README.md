@@ -1,11 +1,15 @@
-# calculator
+# Calculator
 Calculator made with HTML,JS,CSS
 
-An online calculator with basic arithmetic operations built using HTML, CSS and JS features.
-Currently it can only be controlled by mouse.
+An online calculator with basic arithmetic operations built using HTML, CSS and JS features.<br />
+Currently it can only be controlled by mouse.<br />
 
 _________________________________________________________________________________________________________________________________________________________________________
 
-This repo contains everything to create your own simple calculator.
-You can add, subtract, multiply and divide.
-Currently not 100% bug free.
+This repo contains everything to create your own simple calculator. <br />
+You can add, subtract, multiply and divide.<br />
+Currently not 100% bug free.<br />
+
+___________________________________________
+
+<a href="https://krypto1337.github.io/calculator/">Live preview</a>
