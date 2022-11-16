@@ -74,3 +74,8 @@ buttons.forEach((element) => {
     }
   });
 });
+
+clear.addEventListener("click", function (e) {
+  currentScreen.textContent = "0";
+  lastScreen.textContent = "";
+});
