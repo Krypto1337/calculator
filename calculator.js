@@ -12,5 +12,13 @@ function subtract(input) {
 	return difference;
 }
 
+function multiply(input) {
+	const product = input.reduce((total, currentNumber) => {
+		return total * currentNumber;
+	}, 1);
+	return product;
+}
+
 console.log(add([1, 2, 3, 4, 5]));
 console.log(subtract([55, 6, 7]));
+console.log(multiply([10, 2, 5]));
