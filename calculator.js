@@ -26,7 +26,20 @@ function divide(input) {
 	return quotient;
 }
 
-console.log(add([1, 2, 3, 4, 5]));
-console.log(subtract([55, 6, 7]));
-console.log(multiply([10, 2, 5]));
-console.log(divide([55, 11, 5]));
+function operate(num1, num2, operator) {
+	const array = [];
+	array.push(num1, num2);
+
+	switch (operator) {
+		case "+":
+			return add(array);
+		case "-":
+			return subtract(array);
+		case "*":
+			return multiply(array);
+		case "/":
+			return divide(array);
+	}
+}
+
+console.log(operate(10, 5, "*"));
